@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:kzutils.helloWorld"
+		"onCommand:kzutils.alignmentbystring"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "kzutils.helloWorld",
-				"title": "Hello World"
+				"command": "kzutils.alignmentbystring",
+				"title": "Column justify at string pattern"
 			}
 		]
 	},
