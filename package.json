@@ -10,13 +10,13 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:kzutils.alignmentbystring"
+		"onCommand:kzutils.columnJustifyAtStringPattern"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "kzutils.alignmentbystring",
+				"command": "kzutils.columnJustifyAtStringPattern",
 				"title": "Column justify at string pattern"
 			}
 		]
